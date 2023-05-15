@@ -40,7 +40,7 @@ ls_new=[x for x in ls if pd.isnull(x) == False and x != 'nan']
 print(ls_new)
 city=input("\nChoose the location from the list:")
 while city not in ls_new:
-  city=input("Invlaid choice.Please re-enter :")
+  city=input("Invlaid choice.Please re-enter:")
 
 Dict={}
 for i in range(len(ls_new)):
